@@ -1,0 +1,30 @@
+# --- Laravel Specifics ---
+.env
+/vendor
+/storage/*.key
+/storage/framework/cache/data/*
+/storage/framework/views/*.php
+/storage/framework/sessions/*
+/storage/logs/*.log
+/bootstrap/cache/*.php
+
+# --- Version Control ---
+.git
+.gitignore
+
+# --- Frontend (Not needed for pure MVC) ---
+/node_modules
+/public/hot
+/public/storage
+/resources/js
+/resources/css
+vite.config.js
+package.json
+package-lock.json
+
+# --- Docker & CI ---
+Dockerfile
+.dockerignore
+docker-compose.yml
+.github
+.phpunit.result.cache
